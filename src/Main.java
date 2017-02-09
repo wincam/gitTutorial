@@ -3,7 +3,7 @@
  */
 public class Main {
     public static void main(String[] args){
-        Person p1 = new Student("Bob", "bob@uwo.ca", "Restaurant Management");
+        Person p1 = new Student("Bob", "bob@uwo.ca", "Restaurant Management", true);
         Person p2 = new Instructor("Alice", "aline@uwo.ca", "Assistant Professor");
 
         System.out.println(p1);
